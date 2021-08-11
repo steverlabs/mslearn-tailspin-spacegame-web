@@ -46,7 +46,7 @@ steps:
     projects: '**/*.csproj'
 
 # Unit Tests
-    - task: DotNetCoreCLI@2
+- task: DotNetCoreCLI@2
   displayName: 'Run unit tests - $(buildConfiguration)'
   inputs:
     command: 'test'
